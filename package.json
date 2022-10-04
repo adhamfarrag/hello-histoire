@@ -1,0 +1,24 @@
+{
+  "name": "hello-histoire",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
+  },
+  "devDependencies": {
+    "@histoire/plugin-nuxt": "^0.11.0",
+    "@histoire/plugin-vue": "^0.11.0",
+    "@nuxtjs/tailwindcss": "^5.3.3",
+    "histoire": "^0.11.0",
+    "nuxt": "3.0.0-rc.11"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.2"
+  }
+}
