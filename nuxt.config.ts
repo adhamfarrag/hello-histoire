@@ -1,9 +1,5 @@
-import { defineConfig } from 'histoire';
-import { HstVue } from '@histoire/plugin-vue';
-import { HstNuxt } from '@histoire/plugin-nuxt';
-
 export default defineNuxtConfig({
-  plugins: [HstVue(), HstNuxt()],
+  plugins: [],
   modules: [
     '@nuxtjs/tailwindcss',
     [
